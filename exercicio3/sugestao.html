@@ -10,17 +10,35 @@
 </head>
 
 <body>
-    <div class="a">
+    <header class="a">
         <h1><a href="./index.html">Simulador de Climas</a></h1>
-    </div>
-    <div class="b">
-        <div class="c">
+    </header>
+    <main class="b">
+        <form class="c">
 
-<!-- Seu formukário aqui!-->
-        </div>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Seu Nome" required/>
+            <br><br>
 
-    </div>
-    <div class="e">Footer</div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Seu Email" required/>
+            <br><br>
+
+            <label>Sugestão de clima:
+                <br>
+                Sol <input type="radio" name="clima" value="sol"><br>
+                Chuva <input type="radio" name="clima" value="chuva"><br>
+                Nublado <input type="radio" name="clima" value="nublado">
+            </label>
+            
+            <br><br>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+
+    </main>
+    <footer class="e">Footer</footer>
 
 </body>
 
